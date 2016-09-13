@@ -35,5 +35,3 @@ pm2 set yocto-pm2-mongodb:mode YOUR_CONFIG_NAME
 ```
 
 Step 2 : Use your own tools with pm2 API to get metrics
-
-# yocto-pm2-mongodb-dump
