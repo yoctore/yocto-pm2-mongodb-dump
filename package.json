@@ -1,6 +1,6 @@
 {
   "name": "yocto-pm2-mongodb-dump",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A pm2 module to process automatic dump on your mongodb database",
   "main": "app.js",
   "repository": {

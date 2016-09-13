@@ -13,7 +13,7 @@ pmx.initModule({
     pid     : pmx.resolvePidPaths(['/var/run/mongodb.pid', '/var/run/mongodb/mongodb.pid']),
     // for keymetrics
     logo    : [ 'https://raw.githubusercontent.com/yoctore/yocto-pm2-mongodb-dump',
-                 'master/assets/backup.jpg' ].join('/'),
+                 'master/assets/backup.svg' ].join('/'),
     // for your tools
     icon    : 'backup',
     // maybe you need theme info ? but keep this for keymetrics
@@ -27,7 +27,7 @@ pmx.initModule({
       actions       : false,
       issues        : true,
       meta          : true,
-      'main_probes' : [ 'Last dump date', 'Last dump size' ]
+      'main_probes' : [ 'Dump Status', 'Last dump date', 'Last dump size' ]
     }
   }
 }, function (err, conf) {
