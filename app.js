@@ -13,7 +13,7 @@ pmx.initModule({
     pid     : pmx.resolvePidPaths(['/var/run/mongodb.pid', '/var/run/mongodb/mongodb.pid']),
     // for keymetrics
     logo    : [ 'https://raw.githubusercontent.com/yoctore/yocto-pm2-mongodb-dump',
-                 'master/assets/backup.svg' ].join('/'),
+                 'master/assets/backup.png' ].join('/'),
     // for your tools
     icon    : 'backup',
     // maybe you need theme info ? but keep this for keymetrics
