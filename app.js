@@ -17,7 +17,7 @@ pmx.initModule({
     // for your tools
     icon    : 'backup',
     // maybe you need theme info ? but keep this for keymetrics
-    theme   : [ '#FFFFFF', '#222222', '#3ff', '#3ff' ],
+    theme   : [ '#000000', '#222222', '#3ff', '#3ff' ],
     // normal config
     el      : {
       probes        : true,
