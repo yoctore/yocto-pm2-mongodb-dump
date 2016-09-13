@@ -1,6 +1,6 @@
 {
   "name": "yocto-pm2-mongodb-dump",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A pm2 module to process automatic dump on your mongodb database",
   "main": "app.js",
   "repository": {
@@ -40,6 +40,7 @@
     "mode": "keymetrics",
     "compress": true,
     "dateFormat": "YYYY-MM-DD__HHmmss",
+    "reportDateFormat": "DD/MM/YYYY HH:mm:ss",
     "dumpOnstartUp": false,
     "archiveLimit": 48,
     "outPath": "",
