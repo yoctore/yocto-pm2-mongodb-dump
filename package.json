@@ -40,12 +40,12 @@
     "mode": "keymetrics",
     "compress": true,
     "dateFormat": "YYYY-MM-DD__HHmmss",
-    "dumpOnstartUp": true,
-    "probeDateFormat": "YYYY-MM-DD HH:mm:ss",
-    "archiveLimit": 5
+    "dumpOnstartUp": false,
+    "archiveLimit": 48
   },
   "dependencies": {
     "async": "^2.0.1",
+    "bytes": "^2.4.0",
     "fs-extra": "^0.30.0",
     "lodash": "^4.14.0",
     "moment": "^2.14.1",

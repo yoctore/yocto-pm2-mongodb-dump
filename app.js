@@ -12,21 +12,22 @@ pmx.initModule({
   widget : {
     pid     : pmx.resolvePidPaths(['/var/run/mongodb.pid', '/var/run/mongodb/mongodb.pid']),
     // for keymetrics
-    logo    : 'https://raw.githubusercontent.com/yoctore/yocto-pm2-mongodb/master/assets/mongodb.png',
+    logo    : [ 'https://raw.githubusercontent.com/yoctore/yocto-pm2-mongodb',
+                 'master/assets/backup.jpg' ].join('/'),
     // for your tools
-    icon    : 'mongodb',
+    icon    : 'backup',
     // maybe you need theme info ? but keep this for keymetrics
     theme   : [ '#FFFFFF', '#222222', '#3ff', '#3ff' ],
     // normal config
     el      : {
       probes        : true,
-      actions       : true
+      actions       : false
     },
     block   : {
       actions       : false,
       issues        : true,
       meta          : true,
-      'main_probes' : [ 'Last dump name', 'Last dump date', 'Last dump size' ]
+      'main_probes' : [ 'Last dump date', 'Last dump size' ]
     }
   }
 }, function (err, conf) {

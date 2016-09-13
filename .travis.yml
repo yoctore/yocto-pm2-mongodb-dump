@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 4.3.1
+- 4.5.0
 env:
 - CXX=g++-4.8
 addons:
@@ -10,14 +10,14 @@ addons:
     packages:
     - g++-4.8
   code_climate:
-    repo_token: d091dae0064c4056986c37c2fadca597b267de4685c170acd6c069240e92922d
+    repo_token: 81b70a5b7843068b75bda7a7ab187f12ce8eafbe51820ca9214f71f0e3c879cd
 deploy:
   provider: npm
   email: technique@yocto.re
   api_key:
-    secure: d2/gE6ddOdmlzURFtL2BtKfSLmyTJAYbpdKYavpz+PtXsSlF+QCf1Snh1suioJY5rmT9eZrF3Myvj7vcGI3BJ3bi+BEjXB0Tnk4CMy/WadGQPmzxNFilcAio8n5pk/Ervnk6ETYFMSVnON5Gtq7rzK/mR151iIgGqGijkljd9dVFtpAUxj5X/82/0hVauRTt2hB10X4qiHD5kvYfhcCbHz2trhpwGmrhAlwvIKHiDNtVZkJkJsYYeippVgWp8B0OilBEVqIhCGOeF7CH78ZI+NZa3forl7yb9dGX/NhbrsgungLleGspMeTbGLHK39ZBskpTzhFGGGeV8NWTlGmJBG5C0QZlw5/Bv2lNxOgEr2JH1UnRIY31IFEAioO76iPkjQapC1ny5W9T/vaiOPYKSFpquP6CvzIUp7ZLw778ja8msf1tP2e9itQprFDx4oRPSmHXJB34s+yGusTElNq0ml/yPIBV7zq4jC70xdOpX0VzOxOoSzY2tagWFS2F7YjesQHHyxaOPphPNvdqGt8cAqg3SOiF4cpVevuTKLgRWC0Ieytre7zkGBoeW0QiWYewlxx4OMmcGIwq3kdpC3OYUiNGothx3jx4gd7ujF3ahMW7USlBMSuPhF3XgzXlf0A7oGaiwN3JHjocshFX/M49h/XJ2wez8u+ZfXYKbt7WyzY=
+    secure: egqx3xTh4VmbNQYRxk1sOzfG9e1x8nG32cHSLd9dXye5gKvXLSFP0Wyp9yPOhgQTgJidF1Q1s1ee/X0OGAWVtfisHPEOZ0NS7TjENFj9ClA60w20/jJw9HqWXcmXG5XLFT26BKrzPHIhpOaSqnRfUnq+mTySLQvr58dOzCxCWiP7p2QGbNIWsi7GJtzqvjEQM/pQHFErh6K7PGiCD7x1UEmJIycIg4EhYU3Dl5h4ZZ6hcLzz3TqqS0jCZP7bM/LacAuEQVGKfu7CjqVzDWKBrt9S/5R0TjD3idrCI65NzlBzsKsBqvkrSGXRqloR5oLL9aGn1JteUXo3uwwPHWpiRMYr/mXW+V/KY/82nJxB66mpd8gRTr3LLArwTYAJ4HZ7g1D4ZPJfdekxEJKLjmwO1PYMOyZdf70SCAunhrJEt6JvCOr36xCpo9GSK/c5cn9El56CPlAJj25OK0e6hXx6nUT5I3XIrR1ilUYynVH3pTmvpSAq2jodOQeCx+9iaXENz2OsM+XgsYgeSdmGSFlbfZtBlro71hP7tf8E3RN0SZKGsBlGCIigQhRd7i34JR54lcSuIz6/LMkQbJHUNMZkHRxyOgEi6F0IEAmcDYPcyxToML6Xn9uie2aFKFEnN9RRkrXV+lR+pvAg+00GprvsF+3x2o1Q8Q0PRetQy7EhfA8=
   on:
     tags: true
-    repo: yoctore/yocto-pm2-mongodb
+    repo: yoctore/yocto-pm2-mongodb-dump
 before_install: npm install -g grunt-cli
 install: npm install
