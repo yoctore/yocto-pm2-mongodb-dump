@@ -12,7 +12,7 @@ pmx.initModule({
   widget : {
     pid     : pmx.resolvePidPaths(['/var/run/mongodb.pid', '/var/run/mongodb/mongodb.pid']),
     // for keymetrics
-    logo    : [ 'https://raw.githubusercontent.com/yoctore/yocto-pm2-mongodb',
+    logo    : [ 'https://raw.githubusercontent.com/yoctore/yocto-pm2-mongodb-dump',
                  'master/assets/backup.jpg' ].join('/'),
     // for your tools
     icon    : 'backup',
